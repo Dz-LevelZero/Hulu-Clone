@@ -4,6 +4,7 @@
     padding: 20px;
     align-items: center;
     justify-content: space-between;
+    overflow-x: scroll;
     
 }
 
@@ -24,11 +25,11 @@
 }
 
 .header__icon--active > p {
-    display: inline-flex!important;
+    display: inline!important;
 }
 
 .header__icon:hover > p {
-    display: inline-flex;
+    display: inline;
 }
 
 .header__icon > p {
@@ -37,7 +38,7 @@
     letter-spacing:3px ;
     margin-left: auto; 
     margin-right: auto;
-    font-size: small;
+    font-size: x-small;
 }
 
 
